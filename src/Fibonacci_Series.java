@@ -1,6 +1,5 @@
 public class Fibonacci_Series {
-
-    Fibonacci_Series() {
+    public static void main(String[] args) {
 
         int n1 = 0, n2 = 1;
         System.out.print(n1+ " " +n2);
@@ -13,5 +12,6 @@ public class Fibonacci_Series {
         }
 
     }
+
 
 }
