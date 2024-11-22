@@ -1,5 +1,3 @@
-package Object_creation;
-
 import java.util.Scanner;
 
 public class Ascii_value {
