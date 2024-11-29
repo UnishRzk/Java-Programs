@@ -10,20 +10,20 @@ public class Factorial {
             System.out.print("Enter a number: ");
             int n = sc.nextInt();
             sc.close();
-            int fact = 1;
 
-            for (int i = 1; i <= n; i++) {
-                fact *= i;
-            }
-
-            System.out.println("Factorial of " + n + " is " + fact);
+            System.out.println("Factorial of " + n + " is " + factorial(n));
         }
 
         catch (InputMismatchException e) {
             System.out.println("Please enter a valid number");
         }
 
+    }
 
-
+    public static int factorial(int n) {
+        if (n ==1 || n==0) {
+            return 1;
+        }
+        return n * factorial(n-1);
     }
 }
